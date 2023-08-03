@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+/* css for header  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poopins",sans-serif;
 
 }
 
 body {
     font-family: "poopins", sans-serif;
+    background: black;
+
 }
 
 nav {
@@ -16,18 +19,27 @@ nav {
     padding: 5px 20px;
     display: flex;
     align-items: center;
+    
 }
 
 
 nav a {
     color: #fff;
     transition: all 0.3s ease;
+    padding-right: 30px;
+    font-size: 16px;
+    
 
 }
 
 nav a:hover{
     color: rgb(213, 228, 14);
     padding-right: 6px;
+}
+
+.fa {
+    color: #fff;
+    padding-right: 5px;
 }
 
 
@@ -46,9 +58,156 @@ nav a:hover{
 }
 
 .logo img {
-    width: 60px;
+    width: 80px;
     margin-right: 10px ;
 }
+
+.design{
+
+    text-align: center;
+    color: #fff;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poopins",sans-serif;
+    color: #fff;
+
+}
+
+.frame h3{
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+.frame h1{
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    font-size: 50px;
+
+
+
+}
+
+.frame h5{
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    font-size: 15px;
+
+
+}
+
+.head {
+    text-align: center;
+    color: #fff;
+    font-family: "Poopins",sans-serif;
+    font-size: 20px;
+}
+
+.head1 hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 10px;
+    color: #FFD700;
+    border: none;
+    background: #FFD700;
+    border-radius: 10px;
+    
+}
+.idcard , .card2 , .card3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 50px 10px;
+    
+    gap: 50px;
+}
+
+.card img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.952);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+.card h1{
+    color: rgb(233, 224, 224);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}  
+  
+  .title {
+    color: rgb(233, 224, 224);
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #babdb0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(252, 253, 226);
+  }
+  
+  a:hover {
+    opacity: 0.7;
+    color: #FFD700;
+  }
+
+  button:hover {
+    opacity: 0.7;
+    
+  }
+
 
 .logo1 {
     display: flex;
@@ -186,6 +345,14 @@ hr{
     font-size: 16px;
     
 
+}
+
+.contactus {
+    text-align: center;
+    border: 2px solid #FFD700;
+    border-radius: 30px;
+    padding: 10px 10px;
+    
 }
 
 .toggle{
